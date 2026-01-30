@@ -9,14 +9,11 @@ import (
 )
 
 func main() {
-	// Инициализация базы данных
 	database.InitDB()
 
-	// Создание репозитория и сервиса
 	repo := user.NewRepository(database.DB)
 	svc := user.NewService(repo)
 
-	// Запуск gRPC сервера
 	if err := transportgrpc.RunGRPC(svc); err != nil {
 		log.Fatalf("gRPC server failed: %v", err)
 	}

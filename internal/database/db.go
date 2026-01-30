@@ -12,7 +12,7 @@ import (
 var DB *gorm.DB
 
 func InitDB() {
-	dsn := "host=localhost user=postgres password=postgres dbname=postgres port=5432 sslmode=disable"
+	dsn := "host=localhost user=postgres password=postgres dbname=users port=5432 sslmode=disable"
 
 	var err error
 	DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
@@ -25,5 +25,5 @@ func InitDB() {
 		log.Fatalf("Failed to migrate database: %v", err)
 	}
 
-	log.Println("Database connection established")
+	log.Println("Users database connection established")
 }

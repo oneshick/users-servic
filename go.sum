@@ -17,8 +17,6 @@ github.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD
 github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=
 github.com/jinzhu/now v1.1.5 h1:/o9tlHleP7gOFmsnYNz3RGnqzefHA47wQpKrrdTIwXQ=
 github.com/jinzhu/now v1.1.5/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=
-github.com/oneshick/project-protos v0.0.0-20260129155111-b451564779a2 h1:XOB+GstUsu6VIxHz5r6nY7eJIFvDQj5T9RAM0AN5hXQ=
-github.com/oneshick/project-protos v0.0.0-20260129155111-b451564779a2/go.mod h1:lR2xWK6ppwOTzqp77TDhD7cMM7HFiggnCBFpdG4hy1g=
 github.com/oneshick/project-protos v0.0.0-20260129184919-43d27c1ac19f h1:0JzuL0wsWeUpQPO5A0sa8r9Z9xFmInwhb0cIGtzefU8=
 github.com/oneshick/project-protos v0.0.0-20260129184919-43d27c1ac19f/go.mod h1:lR2xWK6ppwOTzqp77TDhD7cMM7HFiggnCBFpdG4hy1g=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
